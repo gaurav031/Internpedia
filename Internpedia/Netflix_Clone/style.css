@@ -1,0 +1,399 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    background-color: grey;
+}
+
+/*Navigation bar*/
+.nav-container {
+    display: flex;
+    height: 750px;
+    width: 1528px;
+    background-image: url(logo.jpg);
+    background-repeat: no-repeat;
+    background-position: fixed;
+
+
+
+
+}
+
+.nav-logo {
+    display: flex;
+    height: 45px;
+    width: 118px;
+    padding: 24px;
+    padding-left: 170px;
+
+
+}
+
+.drop-dowm {
+    padding-left: 840px;
+    padding-top: 32px;
+
+    width: 100px;
+
+}
+
+#language {
+
+    background-color: black;
+    color: white;
+    border-radius: 2px;
+    height: 30px;
+    width: 100px;
+    padding-left: 14px;
+
+}
+
+.sign {
+    padding-top: 30px;
+    padding-left: 10px;
+
+}
+
+.sign button {
+    height: 30px;
+    width: 100px;
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    border: solid red 2px;
+    font-weight: 80;
+    font-size: 15px;
+
+}
+
+/*header section*/
+
+.poster {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+
+}
+
+.poster img {
+    width: 1528px;
+    filter: brightness(0.4);
+}
+
+.textarea {
+    position: relative;
+    position: absolute;
+    top: 65%;
+    left: 40%;
+    transform: translate(-30%, -90%);
+    padding-bottom: 260px;
+
+}
+
+h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-right: 10px;
+
+}
+
+h2 {
+    color: white;
+    font-size: 32x;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-right: 10px;
+    padding-top: 15px;
+
+}
+
+h3 {
+    color: white;
+    font-size: 28x;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-right: 10px;
+    padding-top: 15px;
+}
+
+.inputs input {
+    height: 55px;
+    width: 380px;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 156px;
+    padding-left: 25px;
+    background: transparent;
+    border: solid 2px green;
+}
+
+button {
+    height: 57px;
+    width: 200px;
+    background-color: red;
+    color: white;
+    margin-left: 20px;
+    border-radius: 5px;
+    border: solid red 2px;
+    font-weight: bold;
+    font-size: 22px;
+
+}
+
+/* ------------------section 1---------------- */
+.tv-container {
+    height: 600px;
+    width: 1528px;
+    background-color: black;
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.tv-text {
+
+    margin-top: 140px;
+    margin-left: 170px;
+    width: 600px;
+}
+
+.tv-image {
+    display: flex;
+    height: 450px;
+    width: 450px;
+    margin-top: 80px;
+    margin-right: 90px;
+
+
+}
+
+p {
+    color: aliceblue;
+    font-size: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-top: 80px;
+}
+
+pre {
+    color: aliceblue;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 28px;
+
+
+}
+
+/* ------------------section 2---------------- */
+
+.mobile-container {
+    height: 600px;
+    width: 1528px;
+    background-color: black;
+    display: flex;
+    margin-bottom: 5px;
+
+}
+
+.mobile-img {
+    display: flex;
+    height: 450px;
+    width: 450px;
+    margin-top: 80px;
+    margin-left: 250px;
+
+}
+
+.mobile-text {
+    margin-top: 120px;
+    margin-left: 30px;
+    width: 600px;
+}
+
+/* ------------------section 4---------------- */
+.kids-container {
+    height: 600px;
+    width: 1528px;
+    background-color: black;
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.kids-img {
+    display: flex;
+    height: 450px;
+    width: 450px;
+    margin-top: 80px;
+    margin-left: 130px;
+
+}
+
+.kids-text {
+    margin-top: 120px;
+    margin-left: 120px;
+    width: 600px;
+}
+
+/* ------------------section 5---------------- */
+.ques-container {
+    height: 1000px;
+    width: 1528px;
+    background-color: black;
+    margin-bottom: 5px;
+
+}
+
+.ques-container p {
+    text-align: center;
+    margin-bottom: 30px;
+    color: aliceblue;
+    font-size: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-top: 80px;
+}
+
+.box {
+    height: 85px;
+    width: 1200px;
+    margin-left: 164px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    background-color: #2d2d2d;
+    display: flex;
+}
+
+.box-text {
+    color: aliceblue;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+.box-sym1 {
+    display: flex;
+    color: aliceblue;
+    font-size: 50px;
+    font-weight: bold;
+    padding-left: 900px;
+    padding-top: 15px;
+}
+
+.box-sym2 {
+    display: flex;
+    color: aliceblue;
+    font-size: 50px;
+    font-weight: bold;
+    padding-left: 858px;
+    padding-top: 15px;
+}
+.box-sym3 {
+    display: flex;
+    color: aliceblue;
+    font-size: 50px;
+    font-weight: bold;
+    padding-left: 820px;
+    padding-top: 15px;
+}
+.box-sym4 {
+    display: flex;
+    color: aliceblue;
+    font-size: 50px;
+    font-weight: bold;
+    padding-left: 882px;
+    padding-top: 15px;
+}
+.box-sym5 {
+    display: flex;
+    color: aliceblue;
+    font-size: 50px;
+    font-weight: bold;
+    padding-left: 813px;
+    padding-top: 15px;
+}
+.box-sym6 {
+    display: flex;
+    color: aliceblue;
+    font-size: 50px;
+    font-weight: bold;
+    padding-left: 770px;
+    padding-top: 15px;
+}
+
+.ques-container h3{
+    color: white;
+    font-size: 28x;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-right: 10px;
+    padding-top: 45px;
+}
+
+.ques-container  input {
+    height: 55px;
+    width: 380px;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 456px;
+    padding-left: 25px;
+    background: transparent;
+    border: solid 2px green;
+}
+
+.ques-container button {
+    height: 57px;
+    width: 200px;
+    background-color: red;
+    color: white;
+    margin-left: 20px;
+    margin-top: 30px;
+    border-radius: 5px;
+    border: solid red 2px;
+    font-weight: bold;
+    font-size: 22px;
+
+}
+footer{
+    height: 450px;
+    width: 1528px;
+    background-color: black;
+   }
+.footer-container{
+   
+    margin-top: 40px;
+    margin-left: 10px;
+    
+}
+.value{
+    color: #ffffffb3;
+    text-decoration: underline;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-left: 140px;
+}
+
+.drop-dowm1 {
+    padding-left: 140px;
+    padding-top: 32px;
+    width: 100px;
+
+}
+
+#f-lang {
+
+    background-color: black;
+    color: white;
+ 
+    height: 40px;
+    width: 130px;
+    padding-left: 10px;
+    border: solid white 3px;
+
+}
